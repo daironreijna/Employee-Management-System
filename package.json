@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Using Node.js this command-line application will take in information and then generate an HTML webpage.",
   "main": "index.js",
+  "type": "commonjs",
   "directories": {
     "lib": "lib"
   },
@@ -27,6 +28,7 @@
   "homepage": "https://github.com/daironreijna/12-challenge-oop#readme",
   "dependencies": {
     "inquirer": "^9.2.11",
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "node-fetch": "^2.6.7"
   }
 }
