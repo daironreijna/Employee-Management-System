@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Using Node.js this command-line application will take in information and then generate an HTML webpage.",
   "main": "index.js",
-  "type": "commonjs",
+  "type": "module",
   "directories": {
     "lib": "lib"
   },
