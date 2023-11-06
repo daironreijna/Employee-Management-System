@@ -1,0 +1,16 @@
+The goal of this program is to allow a user to generate a simple HTML file with employee details.
+I desire to allow the user to add as many employees that they wish, and in any order.           
+
+0 - User starts with NPM start 
+
+1 - User is shown a list of options [questionOne.employeeType], which role are they adding. They can choose to not add. 
+
+1.0 - If not adding anymore roles the user chooses options [None] -- > this triggers renderHTML, the user is presented with options to choose from.
+
+
+1.1 - If adding a manager, the main 3 questions should be called, and 1 role specific question should be asked.
+1.2 - If adding a engineer, the main 3 questions should be called, and 1 role specific question should be asked.
+1.3 - If adding a engineer, the main 3 questions should be called, and 1 role specific question should be asked.
+
+2. Where user has finished adding employees, selects [None] render HTML will be the next question executed.
+There are four options, and depending on which is chosen the program should execute accordingly.

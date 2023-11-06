@@ -1,4 +1,4 @@
-const Intern = require("../lib/Intern");
+import Intern from "../lib/Intern";
 
 test("Can set school via constructor", () => {
   const testValue = "UCLA";
